@@ -31,9 +31,11 @@ def Segitiga():
     print("Anda memilih Segitiga")
     alas = float(input("Masukkan panjang alas segitiga: "))
     tinggi = float(input("Masukkan tinggi segitiga: "))
-    sisi_miring = float(input("Masukkan sisi_miring segitiga: "))
+    sisi_A = float(input("Masukkan panjang sisi A segitiga: "))
+    sisi_B = float(input("Masukkan panjang sisi B segitiga: "))
+    sisi_C = float(input("Masukkan panjang sisi C segitiga: "))
     luas = 0.5 * alas * tinggi
-    keliling = alas + tinggi + sisi_miring
+    keliling = sisi_A + sisi_B + sisi_C
     print("Luas Segitiga:", luas)
     print("Keliling Segitiga:", keliling)
 def Lingkaran():
@@ -79,4 +81,5 @@ while True:
        print("Okey, Terima kasih telah menggunakan program ini :)")
        break
    else:
+
        print("Input tidak valid. Silahkan jawab dengan 'ya' atau 'tidak'.")
